@@ -7,12 +7,13 @@
 # Wifi Deauthentication Attack
 Sends `deauth`(deauthentication) packets to wifi network which results network outage for connected devices. Uses `scapy` module to send `deauth` packets.
 Know more about [Deauthentication Attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack)
-
+#Status
+I fixed the not even starting problem but while it starts it does not work
 ### Dependencies
 1. aircrack-ng.(I highly recommend to install latest version, from [source](https://www.aircrack-ng.org/downloads.html) to support more network drivers/cards.) 
    * `sudo apt-get install aircrack-ng -y`
 2. scapy
-   * `sudo apt-get install python-scapy -y`
+   * `sudo apt-get install python3-scapy -y`
 
 ### How to run?
 We can run in 2 ways:
