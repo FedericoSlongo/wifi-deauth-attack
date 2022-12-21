@@ -21,7 +21,7 @@ logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 try:
     import scapy.all
 except ImportError:
-    print "[-] scapy module not found. Please install it by running 'sudo apt-get install python3-scapy -y'"
+    print ("[-] scapy module not found. Please install it by running 'sudo apt-get install python3-scapy -y'")
     exit(1)
             
 scapy.all.conf.verbose = False
